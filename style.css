@@ -1,0 +1,249 @@
+header,
+footer {
+
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.675);
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+article {
+    background: url(https://cdn.pixabay.com/photo/2018/04/16/15/40/dumbbell-3324976_1280.jpg) repeat center center;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.div img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.8, 0.8);
+
+}
+
+.div {
+    margin: 10px 0;
+    background: linear-gradient(to right, rgba(80, 221, 28, 0.692), #feb47b);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88%;
+}
+
+h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    display: flex;
+    justify-content: start;
+    margin: 0 10px;
+}
+
+.div2 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2>* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    margin: 0 10px;
+    background: none;
+    border: none;
+    color: blue;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.textoPrincipal {
+    text-indent: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.lectura {
+    color: rgb(86, 82, 74);
+}
+
+.h1container {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 25px 75px;
+    display: flex;
+}
+
+.headerContainer {
+
+
+    height: 60px;
+    background-color: rgb(72, 185, 72);
+    position: relative;
+    z-index: 1;
+
+}
+
+.menu-icon {
+    color: bisque;
+    margin: 10px;
+    padding: 5px;
+    font-size: 50px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+
+}
+
+.menu {
+
+    margin: 30px;
+    display: none;
+    position: absolute;
+    background-color: #333;
+    top: 50px;
+    left: 10px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    border-bottom: 1px solid #444;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu ul li a:hover {
+    background-color: #42a624;
+}
+
+/* para  el menú cuando se hace hover en el ícono y no de cierre*/
+.menu-icon:hover+.menu,
+.menu:hover {
+    display: block;
+
+}
+
+
+
+
+.h1container2 {
+    background-color: rgba(0, 0, 0, 0.518);
+    border-radius: 10px;
+    padding: 25px 75px;
+    display: flex;
+    font-size: 42px;
+    color: #29df1c;
+}
+
+label {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    color: rgb(238, 210, 210);
+    text-shadow: 5px 5px 1px black;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+input {
+    background-color: rgb(181, 100, 100);
+    box-shadow: inset;
+    border-radius: 5px;
+    width: 300px;
+    height: 28fdspx;
+    font-size: 25px;
+
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px 50px;
+    background-color: rgba(47, 244, 47, 0.811);
+    font-size: 30px;
+    text-shadow: 5px 05px 2px rgba(0, 0, 0, 0.263);
+}
+
+button:hover {
+    background-color: rgba(255, 37, 37, 0.525);
+    scale: 1.1;
+    transition: 300ms;
+}
+
+.formContainer {
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 50%;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+
+input {
+    text-align: center;
+}
